@@ -8,6 +8,11 @@ export const initialState = [
       item: "Learn about Redux",
       completed: false,
       id: 2
+    },
+    {
+      item: "Let's learn JavaScript",
+      completed: false,
+      id: 3
     }
   ];
   
