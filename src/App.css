@@ -1,22 +1,94 @@
 .App {
+  margin: 0 auto;
+  font-family: 'Dosis', sans-serif;
+}
+h1{
+  text-align: center;
+  font-family: monospace;
+  font-size: 2.4rem;
+}
+.form-main {
+  background-image: linear-gradient( rgb(8, 110, 114),white);
+  height: 60px;
+  position: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.bForm {
+  font-size: 1rem;
+  border-radius: 15px;
+  border: 1px solid green;
+  background-color: rgb(211, 211, 211);
+  font-family: 'Dosis', sans-serif;
+  padding: 6px;
+  width: 160px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.bCard {
+  font-size: 1rem;
+  border-radius: 15px;
+  border: 1px solid red;
+  font-family: 'Dosis', sans-serif; 
+  width: 160px;
+  padding: 3px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.input {
+  font-size: 1.2rem;
+  border: 1px solid blue;
+  margin-right: 20px;
+  border-radius: 20px;
+  font-family: 'Dosis', sans-serif;
+  width: 300px;
+  padding: 10px;
+}
+
+.Card {
+  width: 200px;
+  border: 1px solid yellow;
+  border-radius: 15px ;
+  padding: 20px;
+  margin: 20px;
+  align-items: end;
+  justify-content: space-between;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-image: linear-gradient( rgb(0, 140, 200),white);
+  color: yellow;
 }
 
-.App-link {
-  color: #09d3ac;
+.cTop{
+  width: 100%;
+}
+
+.cBottom{
+  width: 100%;  
+  text-align: center;
+  
+}
+
+.bMap {
+  display: flex;
+  justify-items: flex-start;
+  margin-bottom: 20px;
+
+}
+
+.completed {
+  align-content: center;
+}
+
+.bMap.completed {
+  text-decoration: line-through red;
+  margin-bottom: 20px;
+}
+.button-div{
+  padding-top: 5px;
 }
