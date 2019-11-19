@@ -19,11 +19,17 @@ h1{
 .bForm {
   font-size: 1rem;
   border-radius: 15px;
-  border: 1px solid green;
-  background-color: rgb(211, 211, 211);
+  border: none;
+  background-color: orangered;
   font-family: 'Dosis', sans-serif;
   padding: 6px;
   width: 160px;
+  color: rgb(255, 255, 255); 
+}
+
+.bForm:hover {
+  background-color: black;
+  color: yellow;
 }
 
 .bCard {
@@ -33,6 +39,10 @@ h1{
   font-family: 'Dosis', sans-serif; 
   width: 160px;
   padding: 3px;
+}
+.bCard:hover {
+  background-color: rgb(0, 140, 200);
+  color: yellow;
 }
 
 .container {
@@ -52,7 +62,6 @@ h1{
 
 .Card {
   width: 200px;
-  border: 1px solid yellow;
   border-radius: 15px ;
   padding: 20px;
   margin: 20px;
@@ -62,6 +71,7 @@ h1{
   flex-direction: column;
   background-image: linear-gradient( rgb(0, 140, 200),white);
   color: yellow;
+  box-shadow:10px 10px 20px rgb(0, 68, 255);
 }
 
 .cTop{
