@@ -35,13 +35,15 @@ h1{
 .bCard {
   font-size: 1rem;
   border-radius: 15px;
-  border: 1px solid red;
+  border: none;
   font-family: 'Dosis', sans-serif; 
   width: 160px;
   padding: 3px;
+  background-color: orangered;
+  color: white;
 }
 .bCard:hover {
-  background-color: rgb(0, 140, 200);
+  background-color: black;
   color: yellow;
 }
 
@@ -52,12 +54,13 @@ h1{
 }
 .input {
   font-size: 1.2rem;
-  border: 1px solid blue;
+  border: 1px solid rgb(73, 73, 73);
   margin-right: 20px;
   border-radius: 20px;
   font-family: 'Dosis', sans-serif;
   width: 300px;
   padding: 10px;
+  box-shadow:6px 6px 15px rgb(73, 73, 73);
 }
 
 .Card {
@@ -71,7 +74,7 @@ h1{
   flex-direction: column;
   background-image: linear-gradient( rgb(0, 140, 200),white);
   color: yellow;
-  box-shadow:10px 10px 20px rgb(0, 68, 255);
+  box-shadow:6px 6px 25px rgb(0, 68, 50);
 }
 
 .cTop{
@@ -87,7 +90,7 @@ h1{
 .bMap {
   display: flex;
   justify-items: flex-start;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
 }
 
